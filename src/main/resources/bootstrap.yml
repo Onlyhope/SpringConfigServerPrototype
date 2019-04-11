@@ -4,8 +4,9 @@ spring:
       server:
         git:
           # Where URI is a repository that contains YAML and properties files
-          uri: https://github.com/Onlyhope/spring-config-husky
-          username: Onlyhope
-          password: "@Prettypw2"
-          force-pull: true
+#          uri: https://github.com/Onlyhope/SpringConfigServerPrototype
+          uri: ${HOME}\Desktop\Sandbox\spring-cloud
+#          username: Onlyhope
+#          password: "@Prettypw2"
+#          force-pull: true
 #          basedir: target/config
